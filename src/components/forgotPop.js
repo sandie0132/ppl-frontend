@@ -10,7 +10,7 @@ class ForgotPop extends React.Component {
                 <div className="pop_hdr">A mail has been send to your e-mail Id for Reset Password Link</div>
                 <div className="man_contnt">
                     <span>Please Check Your Mail Box!</span>
-                    <input type="submit" defaultValue="Ok" />
+                    <a href="login"><input type="submit" defaultValue="Ok" /></a>
                 </div>
             </div>
         )
