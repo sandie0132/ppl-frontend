@@ -9,7 +9,7 @@ class NavBar extends React.Component {
                 <div className="navbar-inner">
                     <div className="container">
                         <button type="button" className="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span className="icon-bar" /> <span className="icon-bar" /> <span className="icon-bar" /> </button>
-                        <a className="brand" href>PPL</a>
+                        <a className="brand" >PPL</a>
                         <div className="pro_info pull-right">
                             <div className="pro_icn"><img src="images/pic_small.png" /></div>
                             <div className="pro_txt">Me<b className="caret" /></div>
@@ -25,7 +25,7 @@ class NavBar extends React.Component {
                         </div>
                         <div className="nav-collapse collapse">
                             <ul className="nav">
-                                <li className="active"> <a href>Home</a> </li>
+                                <li className="active"> <a>Home</a> </li>
                                 <li className> <a href>E-Coupons</a> </li>
                                 <li className> <a href>E-Brands</a> </li>
                                 <li className> <a href>Resuse Market</a> </li>
